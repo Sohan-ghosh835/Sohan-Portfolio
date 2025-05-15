@@ -11,6 +11,7 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -99,6 +100,7 @@ nav {
   background: linear-gradient(135deg,rgba(59, 10, 10, 1) 0%, rgba(0, 0, 0, 1) 100%);
   padding: 100px 0;
   text-align: left;
+  overflow-x: hidden;
 }
 
 .hero h2 {
@@ -108,11 +110,13 @@ nav {
   word-break: break-word; /* Allow clean wrapping */
   white-space: normal; /* Ensure it wraps */
   margin: 0;
+  overflow-x: hidden;
 }
 
 .hero p {
   font-size: 1.2rem;
   color: #ccc;
+  overflow-x: hidden;
 }
 
 .hero-heading {
@@ -125,6 +129,7 @@ nav {
   width: fit-content;
   max-width: 100%;
   min-height: 100px;
+  overflow-x: hidden;
 }
 
 /* About Section */
@@ -413,6 +418,7 @@ footer {
   width: 480px;  
   height: 480px; 
   z-index: 0;  
+  overflow-x: hidden;
 }
 
 @media (max-width: 1300px) {
@@ -420,6 +426,7 @@ footer {
     scale: 1.0;
     top: 5px;
     right: -18%;
+    overflow-x: hidden;
   }
 }
 
@@ -429,9 +436,9 @@ footer {
   }
 
   .robot-3d {
-    scale: 1.7;
+    scale: 1.5;
     top: -100%;
-    right: -10%;
+    right: -2.6%;
     position: relative;
     transform: translateY(100px) !important;
     overflow-x: hidden;
@@ -439,6 +446,7 @@ footer {
 
   .hero {
     position: relative;
+    overflow-x: hidden;
   }
 
   .container {
@@ -446,15 +454,19 @@ footer {
     margin-bottom: 0%;
     max-width: 100vw;;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .hero h2 {
-    top: -20%;
-    z-index: 9;
+    top: -15%;
+    z-index: 10;
+    font-size: 20px;
+    overflow-x: hidden;
   }
 
   .footer {
     position: relative;
+    overflow-x: hidden;
   }
 
   .typewriter-line {
@@ -468,14 +480,17 @@ footer {
     z-index: 10;
     max-width: 100vw;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .static-text, .dynamic-text {
     display: inline-block;
     white-space: nowrap;
-    max-width: 90;
+    font-size: 15px;
+    max-width: 90vw;
     overflow: hidden;
     text-overflow: ellipsis;
+    overflow-x: hidden;
   }
 }
 
