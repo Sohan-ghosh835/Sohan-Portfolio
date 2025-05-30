@@ -220,3 +220,29 @@ const navLinks = document.querySelector('.nav-links');
     hideSongName();
     hideArrowWithFade();
   });
+
+  window.addEventListener('DOMContentLoaded', () => {
+  const preloader = document.getElementById('preloader');
+  const body = document.body;
+
+  
+  setTimeout(() => {
+    preloader.classList.add('exit');
+
+    
+    setTimeout(() => {
+      preloader.style.display = 'none';
+      body.classList.add('loaded'); 
+      AOS.init(); 
+    }, 800); 
+  }, 800); 
+});
+
+
+
+
+
+
+
+
+
