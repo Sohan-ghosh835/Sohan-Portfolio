@@ -41,9 +41,9 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 If you'd like to connect or discuss opportunities:
 
-* **Email**: [your.email@example.com](mailto:your.email@example.com)
+* **Email**: [616447sohanghosh@gmail.com](mailto:616447sohanghosh@gmail.com)
 * **GitHub**: [@sohan-ghosh835](https://github.com/sohan-ghosh835)
-* **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/yourusername)
+* **LinkedIn**: [Sohan Ghosh](https://in.linkedin.com/in/sohan-ghosh-276b0028b)
 
 ---
 
